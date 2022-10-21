@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "\"echo\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2000qwer/TWwAI_L2.git"
+  },
+  "author": "Michal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2000qwer/TWwAI_L2/issues"
+  },
+  "homepage": "https://github.com/2000qwer/TWwAI_L2#readme"
+}
