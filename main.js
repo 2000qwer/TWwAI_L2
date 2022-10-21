@@ -1,11 +1,16 @@
-const http = require('http');
+
+const questions = require('./questions').questions;
+
+const express = require('express');
+const app = express();
+
+app.get('/questions', (request, response) => {
+    console.log('fh')
+    response.send(questions);
+});
 
 
-const server = http.createServer();
 
-
-server.on('connection', (socket => {
-    console.log('new connection');
-}))
-
-server.listen(3000);
+app.listen(3000, function () {
+    console.info(`Server is running at port 3000`);
+});
