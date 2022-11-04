@@ -2,141 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Technologie webowe w aplikacjach Internetu</title>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <style>
-        body, html {
-            height: 100%;
-            margin: 0;
-
-        }
-
-        .background {
-            background-image: url("");
-            height: 30px;
-            width: 30px;
-
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        .text {
-            height: 50vh;
-            background-color: #e8dbdb;
-            font-size: 36px;
-            padding: 15px;
-        }
-
-        nav {
-            position: fixed;
-            background-color: #fff;
-            width: 100%;
-            box-shadow: 10px 5px 5px black;
-        }
-
-        nav ul li {
-            list-style-type: none;
-            display: inline;
-            margin-right: 15px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #0d0fbf;
-            transition: 0.5s;
-        }
-
-        nav ul li a:hover {
-            text-decoration: underline;
-            color: #000;
-        }
-
-        footer {
-            text-align: center;
-        }
-
-        .other {
-            padding: 15px;
-        }
-
-        .kontakt {
-            padding: 15px;
-        }
-
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
 
 <nav>
     <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#lab">Laboratorium</a></li>
-        <li><a href="#wykres1">Wykres1</a></li>
-        <li><a href="#wykres2">Wykres2</a></li>
+        <li><a href="">Home</a></li>
+        <li><a href="">Przedmiot</a></li>
+        <li><a href="">Katedra</a></li>
+        <li><a href="">Kontakt</a></li>
     </ul>
 </nav>
 
-<section id="home"></section>
 
+
+<section id="home"></section>
 <div class="background"></div>
 
-<section id="lab" class="text">
-    <h2><%= subject %></h2>
-    Laboratorium 3. Na stronie powinny pojawić się 2 wykresy.
-</section>
 
-<section id="wykres1" class="other">
-    <div>
-        Testowy wykres
-        <canvas id="chart1"></canvas>
-    </div>
-</section>
-
-<div class="background">
-
-
-
-</div>
-
-<section id="wykres2" class="kontakt">
+<section id="kontakt" class="kontakt">
 
     <div>
-        Wykres temperatury
-        <canvas id="chart2"></canvas>
+        Kontakt:
+        <ul>
+            <li>tel: 123 123 134</li>
+            <li>email: test@test.pl</li>
+            <li>skype: test</li>
+        </ul>
     </div>
 
 </section>
+
+
+
+<section id="przedmiot" class="text">
+    <h2>Informatyka aplikacji Internetu</h2>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+    type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+    Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
+    Lorem Ipsum.
+</section>
+
+
 <footer>
     <p class="copy">Copyrights &copy; | 2022</p>
 </footer>
 
-
-<script>
-
-    const chartConfig = '<%-chart1%>';
-
-    const config = JSON.parse(chartConfig);
-
-    const chart1 = new Chart(
-        document.getElementById('chart1'),
-        config
-    );
-
-
-</script>
 </body>
 </html>
 
 
 
-</script>
-
-
-
-</body>
-</html>

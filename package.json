@@ -18,7 +18,9 @@
 
     "test": "\"echo\"",
 
-    "watch": "nodemon ./app.js"
+    "watch": "nodemon ./app.js",
+    "start" : "node app.js",
+    "dev" : "nodemon app"
 
 
 

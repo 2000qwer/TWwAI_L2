@@ -1,0 +1,56 @@
+body, html {
+   height: 100%;
+   margin: 0;
+}
+nav {
+   position: fixed;
+   background-color: #fff;
+   width: 100%;
+   box-shadow: 10px 5px 5px black;
+}
+
+
+nav ul li {
+   list-style-type: none;
+   display: inline;
+   margin-right: 15px;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: #0d0fbf;
+   transition: 0.5s;
+}
+
+nav ul li a:hover {
+   text-decoration: underline;
+   color: #000;
+}
+.text {
+   height: 50vh;
+   background-color: #e8dbdb;
+   font-size: 36px;
+   padding: 15px;
+}
+.background {
+   background-image: url("https://cdn1.epicgames.com/salesEvent/salesEvent/5a97c2f6-cf8b-472b-9a55-c02d07169dc4_2560x1440-7e009cb2d9b6c0297e698756e0e7f180");
+   height: 100%;
+
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+footer {
+   text-align: center;
+}
+.other {
+   background-color: #6c92e5;
+   padding: 15px;
+}
+
+.kontakt {
+   padding: 15px;
+}
+
