@@ -1,0 +1,14 @@
+{
+  "name": "docker",
+  "version": "1.0.0",
+  "description": "Node.js on docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "express": "4.17.1"
+  },
+  "author": "Michal Matracz",
+  "license": "ISC"
+}

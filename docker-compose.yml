@@ -1,0 +1,19 @@
+version: "3.8"
+services:  
+  react:    
+    build: dashboard-app
+    ports:    
+    - "3000:3000"
+
+
+  
+  
+  express:    
+    build: dashboard-api   
+    ports:      
+    - "3001:3001"
+  
+  database: 
+    image: mongo:3.4.10
+    ports: 
+      - "27017:27017"
